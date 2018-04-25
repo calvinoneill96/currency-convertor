@@ -28,3 +28,13 @@ function euroToYen()[
 	document.getElementById("resultsentence").innerHTML = message;
 
 ]
+function euroToBitcoin()[
+
+  var amount = parseInt(document.getElementById("value1").value);
+
+  var Yen = amount * 121.12;
+  var message = amount + ' euros converts to ' + Yen + ' Bitcoin.';
+	console.log(message);
+	document.getElementById("resultsentence").innerHTML = message;
+
+]
